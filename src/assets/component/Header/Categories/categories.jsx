@@ -14,6 +14,7 @@ export const Categories = ({categories, setSelectedCategory,selectedCategory}) =
             key={category}
 
           >
+         
             {category}
         </button>
         );
