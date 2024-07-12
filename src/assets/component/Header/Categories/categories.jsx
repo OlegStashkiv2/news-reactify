@@ -2,9 +2,9 @@ import React from 'react'
 import styles from './categories.module.css'
 
 export const Categories = ({categories, setSelectedCategory,selectedCategory}) => {
-  return (
+  return (sss
     <div className={styles.categories}>
-      {categories.map(category => {
+      {categories.map(category => {ssss
         return (
         <button
          onClick= {()=> setSelectedCategory(category) } 
@@ -14,8 +14,8 @@ export const Categories = ({categories, setSelectedCategory,selectedCategory}) =
             key={category}
 
           >
-            1
-            {category}
+          console .log ssdds
+            {category}cccc
         </button>
         );
     
